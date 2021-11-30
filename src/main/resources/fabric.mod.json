@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "baritone",
+  "version": "${version}",
+  "name": "Baritone",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/baritone/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.stevenlol.bots.baritone.client.BaritoneClient"
+    ],
+    "main": [
+      "me.stevenlol.bots.baritone.Baritone"
+    ]
+  },
+  "mixins": [
+    "baritone.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
